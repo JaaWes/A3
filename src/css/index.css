@@ -1,12 +1,52 @@
-html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+body {
+	height: 100vh;
+	background: #efe9e0;
+	display: flex;
+	
 }
 
-body {
-  background-color:blanchedalmond;
+h1 { 
+  
+  font-family: futura;
+  text-decoration: underline;
+  color:black;
+  font-size: 4vh
+
+   
 }
+
+
+#progress {
+  
+position: fixed;
+top: 122px;
+left: 5px;
+  
+ font-family: monospace;
+ writing-mode: vertical-rl; 
+ font-size: 2vh;
+ color:black;
+
+}
+  
+
+.psalm {
+  
+ 
+ font-family:Georgia;
+  
+  width: 90%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 60px;
+  margin-right: auto;
+ 
+  
+}
+
+.psalm p {
+  font-size: 2vw;
+  white-space: pre;
+}
+  
+
